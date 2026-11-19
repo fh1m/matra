@@ -1,0 +1,21 @@
+README.md
+  s_4af8d6f83b24e8::t_4f48d1b18b269f 1-150
+results/verified-environment.json
+  s_4af8d6f83b24e8::t_3e6a7f2b4129c7 1-49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.6",
+  "base_commit_sha": "58ecec433cb67b7656bdffddd298961966e977fc",
+  "prompts": {},
+  "sessions": {
+    "s_4af8d6f83b24e8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e04fd519-589d-4e28-bd6f-1517d1827ef2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Fahim Faisal <fahim.2002.faisal@gmail.com>"
+    }
+  }
+}

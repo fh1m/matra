@@ -1,0 +1,49 @@
+{
+  "software": {
+    "python": "3.14.8",
+    "numpy": "2.5.5",
+    "opencv": "5.1.0"
+  },
+  "input": "88 exact synthetic correspondences, known intrinsics, identity rotation, 0.4 m baseline",
+  "scale_recovery": [
+    {
+      "input_depth_factor": 0.5,
+      "known_scene_baseline_m": 0.4,
+      "estimated_translation_scale": 0.2000000373335833,
+      "error_if_mistaken_for_original_scene_metres": -0.19999996266641673
+    },
+    {
+      "input_depth_factor": 1.0,
+      "known_scene_baseline_m": 0.4,
+      "estimated_translation_scale": 0.4000000746671666,
+      "error_if_mistaken_for_original_scene_metres": 7.466716656079342e-08
+    },
+    {
+      "input_depth_factor": 2.0,
+      "known_scene_baseline_m": 0.4,
+      "estimated_translation_scale": 0.8000001493343332,
+      "error_if_mistaken_for_original_scene_metres": 0.40000014933433314
+    }
+  ],
+  "without_depth_or_history": 1.0,
+  "two_worlds": {
+    "baseline_a_m": 0.4,
+    "baseline_b_m": 0.8,
+    "max_projection_difference_px": 0.0
+  },
+  "normalization": {
+    "held_pixel_row_column": [
+      5,
+      5
+    ],
+    "unchanged_raw_value": 6.222222328186035,
+    "mapped_before": 11.155556678771973,
+    "mapped_after_one_other_pixel_becomes_80": 0.6818714141845703,
+    "configured_output_range": [
+      0.1,
+      20.0
+    ],
+    "kind": "Direct call to the archived conversion; no neural inference or physical observation"
+  },
+  "conclusion": "The scale estimator inherits the units of its depth input. Frame-wise min-max remapping does not establish those units."
+}

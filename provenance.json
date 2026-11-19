@@ -1,0 +1,26 @@
+{
+  "originals_modified": false,
+  "source_files": [
+    {
+      "source": "flow_use/perception-system/odometry/visual_odometry.py",
+      "snapshot": "origin/perception-system/odometry/visual_odometry.py",
+      "sha256": "abbdc47ae497c5832637470b05c6ce35c82ae244aeae411524be6081c89938a0"
+    },
+    {
+      "source": "flow_use/perception-system/depth/depth_estimator.py",
+      "snapshot": "origin/perception-system/depth/depth_estimator.py",
+      "sha256": "10bf7f379066189228c5883c76cdea23d3fb1bbc75c181ee6c74f9d313dbfa43"
+    },
+    {
+      "source": "flow_use/perception-system/core/config.py",
+      "snapshot": "origin/perception-system/core/config.py",
+      "sha256": "1dff04a0fdf32d9569c4bc6bd9b4a16b0476859ea27cfe5a052a4a6c85e1dc78"
+    },
+    {
+      "source": "flow_use/perception-system/core/types.py",
+      "snapshot": "origin/perception-system/core/types.py",
+      "sha256": "2370efcf332e41fad84bffc1658c2a794b72b1b7fc26e7f9f71ae84b16757c66"
+    }
+  ],
+  "claim": "Synthetic geometry and direct numerical conversion only; no learned model or physical trajectory was evaluated."
+}
